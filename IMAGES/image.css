@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+.div2{
+  background-image: url("imagebgimg.jpeg");
+  height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: cursive;
+}
+img{
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  transition: all 0.5s linear 0s;
+}
+.div3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 35px;
+}
+.img1{
+  position: relative;
+  overflow: hidden;
+  transition:all 0.5s linear 0s ;
+}
+
+.img1:hover{
+transform: scale(1.1);
+
+}
+
+.img1 .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(36,34,34,0.713);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.5s linear 0s;
+}
+.img1:hover .overlay{
+  opacity: 1;
+}
+.img1 .overlay span{
+color: white;
+font-size: 1.4rem ;
+}

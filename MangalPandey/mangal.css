@@ -1,0 +1,57 @@
+ /* Styling the body element */
+ body {
+  background-color: #00FA9A;
+  margin:0;
+}
+
+/* Styling the title and giving shadow */
+#title {
+  text-align: center;
+  text-shadow: 5px 5px 10px white;
+  font-size: 7vh;
+}
+
+/* Setting width and display type for the image */
+img {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  
+}
+#image{
+  margin-left: 540px;
+}
+#caption{
+  
+  margin-left: 540px;
+}
+/* Styling the image caption */
+#caption {
+  font-size: 17px;
+  font-family: Gill Sans;
+  color: black;
+}
+
+/* Styling the content section */
+div#tribute-data {
+  background-color: rgba(46, 139, 87, 0.25);
+  box-shadow: 20px 20px 20px #98FB98;
+  font-family: Georgia;
+  padding: 25px;
+  margin: 11px;
+  margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+
+/* Styling the link provided at the end */
+#tribute-link {
+  text-decoration: none;
+  color: black;
+}

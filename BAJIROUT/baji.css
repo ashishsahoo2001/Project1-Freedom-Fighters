@@ -1,0 +1,70 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("babgimg1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 40px auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-lg-4 {
+	width: 33.33%;
+	padding: 20px;
+}
+
+.offset-lg-2 {
+	margin-left: 16.67%;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.mb-4 {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.h{
+  font-size: 40px;
+}
+
+h3 {
+	margin-top: 40px;
+}
+.col-lg-12 {
+	width: 100%;
+	padding: 20px;
+  font-size: 35px;
+}
+
+.legend {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.legend span {
+	font-size: 35px;
+	font-weight: normal;
+}

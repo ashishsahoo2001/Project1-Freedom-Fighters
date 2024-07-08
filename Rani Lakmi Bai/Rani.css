@@ -1,0 +1,27 @@
+body {
+  margin-top: 10px;
+}
+.white
+{background-color:white;}
+.jumbotron
+{
+ background-color:pink;
+ font-family: sans-serif,Times New Roman;
+}
+body {
+ color: black;
+ background-color: lightblue;
+}
+
+h1 {
+   color: green;
+}
+table, th, td {
+  border: 5px solid black;
+}
+.thick-green-border {
+   border-color: coral;
+   border-width: 20px;
+   border-style: groove;
+   border-radius: 0%;
+}
