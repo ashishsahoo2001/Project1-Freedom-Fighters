@@ -23,7 +23,6 @@ img{
   height: 400px;
   width: 300px;
   border-radius: 20px;
-  transition: all 0.5s linear 0s;
 }
 .div3{
   display: flex;
@@ -34,14 +33,14 @@ img{
 .img1{
   position: relative;
   overflow: hidden;
-  transition:all 0.5s linear 0s ;
+  transition:all 0.5s linear 0s;
 }
 
 .img1:hover{
 transform: scale(1.1);
 
 }
-
+/*-----for text-----*/
 .img1 .overlay{
   position: absolute;
   top: 0;

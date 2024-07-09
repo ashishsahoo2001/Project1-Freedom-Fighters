@@ -9,7 +9,11 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+
 /*--------Background Section-------*/
+
+
 #n{
   background-image: linear-gradient(to right,orange,white,green);
   font-size: 50px;
@@ -20,6 +24,8 @@
   top: 10px;
   
 }
+
+
 /*--------Header Section---------*/
 
 nav{
@@ -28,7 +34,9 @@ nav{
   justify-content: space-between;
   height: 100px;
   margin-top: 40px;
+  
 }
+
 nav img{
   height: 100px;
 }
@@ -69,7 +77,7 @@ a{
   padding-top: 8px ;
 }
 .rightbox p{
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
 }
 /*---------main--------*/
@@ -80,7 +88,7 @@ h1{
   text-decoration: underline;
 }
 .left p{
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
 }
 .left{

@@ -1,0 +1,61 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 40px auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-lg-4 {
+	width: 33.33%;
+	padding: 20px;
+}
+
+.offset-lg-2 {
+	margin-left: 16.67%;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.mb-4 {
+	margin-bottom: 40px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 40px;
+}
+
+.col-lg-12 {
+	width: 100%;
+	padding: 20px;
+}
+
+.legend {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.legend span {
+	font-size: 14px;
+	font-weight: normal;
+}
