@@ -29,12 +29,13 @@
 /*--------Header Section---------*/
 
 nav{
-  padding: 5px 20px;
+  padding: 5px ;
   display: flex;
   justify-content: space-between;
+  align-items:center ;
   height: 100px;
   margin-top: 40px;
-  
+  background-color: rgb(3, 139, 236);
 }
 
 nav img{
@@ -46,8 +47,8 @@ nav ul li{
 }
 nav ul li a {
   list-style-type: none;
-  font-size: 30px;
-  color: blue;
+  font-size: 25px;
+  color: rgb(255, 234, 0);
   text-decoration: none;
 }
 ul:hover a{
@@ -62,6 +63,31 @@ a{
   font-weight: 700;
 }
 
+.box{
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0,0, 0.3);
+}
+.box:hover input{
+  width: 200px;
+}
+.box input{
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+.box a .fas{
+  color: #1daf;
+  font-size: 18px;
+}
 /*-----------nav tag------------*/
 .main{
   display: flex;
@@ -112,3 +138,4 @@ span{
 .span1{
   text-align: center;
 }
+

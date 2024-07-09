@@ -12,7 +12,7 @@
 
 }
 h1{
-  font-size: 50px;
+  font-size: 45px;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -21,10 +21,10 @@ h1{
 /*------Heading-------*/
 .div1{
 position: absolute;
-top: 50%;
+top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
-  height: 500px;
+  height: 570px;
   width: 500px;
   border: 3px solid black;
   border-radius: 20px;
@@ -49,7 +49,7 @@ ul li:hover{
 }
  ul li {
   list-style-type: none;
-  line-height: 200%;
+  line-height: 125%;
  }
  ul li a{
 color: blue;
